@@ -87,7 +87,7 @@ a{color:inherit}
 .contact-left p{display:flex;gap:10px;align-items:flex-start;color:var(--muted);margin-bottom:8px}
 .icon{width:18px;height:18px;fill:currentColor}
 .socials{display:flex;gap:8px;margin-top:10px}
-.s-ico{display:inline-flex;width:36px;height:36px;border-radius:50%;align-items:center;justify-content:center;background:#fff;box-shadow:0 6px 18px rgba(2,6,23,0.04);text-decoration:none;color:var(--dark)}
+.s-ico{display:inline-flex;}
 .contact-right .map-cta{background:#fff;border-radius:8px;overflow:hidden;padding:8px;display:flex;flex-direction:column;gap:8px}
 
 .site-map{width:100%;height:520px;border:0;border-radius:8px}
@@ -97,10 +97,6 @@ a{color:inherit}
 .footer-inner{display:flex;justify-content:space-between;align-items:center}
 .logo-sm{width:110px}
 .foot-right{display:flex;gap:10px}
-
-
-.reveal-hidden { opacity:0; transform:translateY(12px); transition:opacity .6s ease, transform .6s ease; }
-.is-visible { opacity:1; transform:none; }
 
 
 @media(max-width:1200px){
