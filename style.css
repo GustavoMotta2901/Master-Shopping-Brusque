@@ -87,7 +87,7 @@ a{color:inherit}
 .contact-left p{display:flex;gap:10px;align-items:flex-start;color:var(--muted);margin-bottom:8px}
 .icon{width:18px;height:18px;fill:currentColor}
 .socials{display:flex;gap:8px;margin-top:10px}
-.s-ico{display:inline-flex;}
+.s-ico{display:inline-flex }
 .contact-right .map-cta{background:#fff;border-radius:8px;overflow:hidden;padding:8px;display:flex;flex-direction:column;gap:8px}
 
 .site-map{width:100%;height:520px;border:0;border-radius:8px}
@@ -96,7 +96,8 @@ a{color:inherit}
 .site-footer{background-color: var(--accent);border-top:1px solid rgba(0,0,0,0.03);padding:18px 0;margin-top:28px}
 .footer-inner{display:flex;justify-content:space-between;align-items:center}
 .logo-sm{width:110px}
-.foot-right{display:flex;gap:10px}
+.foot-right{display:flex;gap:10px;}
+.foot-left p{font-size:14px;color:var(--letras);align-items: baseline; }
 
 
 @media(max-width:1200px){
