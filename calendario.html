@@ -1,19 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calendário</title>
+    <link rel="stylesheet" href="calendario.css">
 </head>
+
 <body>
 
+    <header class="site-header" role="banner">
 
-    
-<div class="blococalendarios">  <h1> CALENDÁRIOS</h1>
-<img src="assets/CALENDARIOS/nov.png" alt="calendarioNovembro" showImage="Novembro" width="50%" height="50%">
-</div>
+        <div class="divlogo">
+            <img src="assets/IMG/LOGO MASTER BRANCA.png" alt="Logo Master Shopping" class="logo">
+            <div class="titles">
+                <div class="name">Master Shopping</div>
+                <div class="sub">Atacadista de Brusque</div>
+            </div>
+        </div>
+
+        <nav class="main-nav" role="navigation" aria-label="Menu principal">
+            <a href="index.html">Hotel</a>
+            <a href="index.html">Eventos</a>
+            <a href="index.html">Contato</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <div class="blococalendarios">
+            <h1> CALENDÁRIOS</h1>
+
+            <button onclick="showImage('assets/CALENDARIOS/oct.png')">Outubro</button>
+            <button onclick="showImage('assets/CALENDARIOS/nov.png')">Novembro</button>
+            <button onclick="showImage('assets/CALENDARIOS/dec.png')">Dezembro</button>
+
+        </div>
+
+    <img id="mainImage" src="assets/CALENDARIOS/otc.png" alt="Calendário" style="width:100%; max-width:600px; margin-top:20px;">
 
 
+
+    </main>
 
 </body>
+
 </html>
