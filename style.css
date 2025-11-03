@@ -16,10 +16,10 @@ a{color:inherit}
 .container{max-width:var(--maxw);margin:0 auto;padding:20px}
 
 
-.site-header{position:sticky;top:0;z-index:90;background-color:var(--accent);backdrop-filter:blur(4px);box-shadow:0 6px 18px rgba(0,0,0,0.06)}
-.site-header .container{display:flex;align-items:center;justify-content:space-between;min-height:var(--header-height);gap:12px}
+.site-header{background-color:var(--accent)}
+.site-header .container{display:flex;align-items:center; justify-content:space-between;}
 .brand{display:flex;align-items:center;gap:12px}
-.logo{width:92px;height:60px;object-fit:contain}
+.logo{width:92px;height:90px}
 .titles .name{font-weight:700 ; color:var(--letras)}
 .titles .sub{font-size:13px;color:var(--letras)}
 .main-nav{display:flex;gap:12px;align-items:center}
