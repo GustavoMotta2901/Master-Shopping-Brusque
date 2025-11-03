@@ -1,0 +1,32 @@
+:root {
+    --accent: #a60000; 
+}
+
+main {
+
+text-align: center;
+}
+
+
+.logo {
+    width: 90px;
+    height: 90px; 
+}
+
+.divlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+    background-color: var(--accent);
+   justify-content: space-between;
+  
+    
+}
